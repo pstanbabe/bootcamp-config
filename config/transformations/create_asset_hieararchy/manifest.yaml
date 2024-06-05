@@ -10,7 +10,6 @@ ignoreNullFields: true
 shared: true
 action: upsert
 dataSetExternalId: src:all
-# Added authentication information
 authentication:
     clientId: ${COGNITE_CLIENT_ID}
     clientSecret: ${COGNITE_CLIENT_SECRET}
